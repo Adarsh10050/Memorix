@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+   th:replace="~{base::layout(~{::section})}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Memorix</title>
+    
+    <!-- Optional: Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="about-section">
+        <h1>About Memorix</h1>
+        <h2>Your ultimate tool to organize and manage contacts efficiently.</h2>
+        <p>Memorix helps you save, edit, and organize all your personal and professional contacts. With an easy-to-use interface and powerful features, it ensures you never lose track of important connections.</p>
+        
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-user-plus"></i>
+                <h3>Add Contacts</h3>
+                <p>Quickly add new contacts with all necessary details in a few clicks.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-edit"></i>
+                <h3>Edit Contacts</h3>
+                <p>Update contact information anytime to keep your database accurate.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-address-book"></i>
+                <h3>Organize Contacts</h3>
+                <p>Categorize and search contacts easily using smart filters.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
